@@ -1,0 +1,14 @@
+$git init
+$git add .
+$git commit -m "Initial commit"
+$git branch bugFix1
+$git branch logs
+$git checkout bugFix1
+$git add .
+$git commit -m "functions implemented"
+$git remote add origin https://github.com/mex173109/C-Users-student-Documents-SI_173109_lab1.git
+$git push -u origin master
+$git checkout bugFix1
+$git push -u origin bugFix1
+$git checkout logs
+$git nano logs
